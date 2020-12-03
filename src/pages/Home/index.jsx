@@ -7,16 +7,20 @@ import homePerson from '../../assets/img/home-person.png';
 import leftArrow from  '../../assets/svg/left-arrows.svg'
 import rightArrow from '../../assets/svg/right-arrow.svg';
 
+import NavBar from '../../components/Nav/Navbar';
+
 
 function Home() {
     return (
 
         <main className="container">
 
+                    
+
             <header>
                 <h1>LOGO</h1>
-
-
+                      
+                   <NavBar />
 
             </header>
 
