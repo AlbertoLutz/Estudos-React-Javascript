@@ -10,13 +10,13 @@ import rightArrow from '../../assets/svg/right-arrow.svg';
 import NavBar from '../../components/Nav/Navbar';
 
 
+
 function Home() {
     return (
 
         <main className="container">
 
-                    
-
+            
             <header>
                 <h1>LOGO</h1>
                       
@@ -24,6 +24,7 @@ function Home() {
 
             </header>
 
+          
             <section>
                 <h2>Lorem ipsum dolor sit amet, consectetur</h2>
 
@@ -33,7 +34,7 @@ function Home() {
 
             </section>
 
-
+          
 
             <div className="carousel">
                 <img src={truckImg} alt="" />
@@ -53,15 +54,17 @@ function Home() {
                 <img src={homePerson} alt="" />
 
                 <span>
+                    <button className="left-arrow">
                     <img src={leftArrow} alt="" />
+                    </button>
                 </span>
 
                 <span>
+                 <button className="right-arrow">
                 <img src={rightArrow} alt="" />
+                </button>
                 </span>
             </div>
-
-
 
         </main>
     );
