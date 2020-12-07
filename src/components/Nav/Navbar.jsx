@@ -11,6 +11,8 @@ const Nav = styled.nav`
   justify-content: space-between;
   .logo {
   padding: 15px 0;
+  position: relative;
+  z-index: 1;
   }
 `
 
@@ -18,7 +20,7 @@ const Navbar = () => {
   return (
     <Nav>
       <div className="logo">
-        Nav Bar
+        
       </div>
       <Burger />
     </Nav>

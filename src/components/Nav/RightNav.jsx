@@ -17,6 +17,7 @@ const Ul = styled.ul`
   transition: transform 0.3s ease-in-out;
   font-family: Arial;
   font-weight: bold;
+  
   li {
     padding: 18px 10px;
   }
